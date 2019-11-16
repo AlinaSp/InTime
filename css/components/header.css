@@ -1,0 +1,9 @@
+.header-top {
+	background: #f5f8fb;
+}
+
+.header-top>.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

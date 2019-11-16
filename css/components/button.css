@@ -1,0 +1,29 @@
+.button {
+	font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+	width: 380px;
+  height: 52px;
+  border-radius: 5px;
+  background: url(../../img/left-arrow.png) no-repeat 83% 50%;
+}
+
+.button-white {
+	color: #009688;
+	border: 2px solid #009688;
+	padding: 12px 87px 12px 55px;
+}
+
+.button-green {
+	color: #fff;
+	background-color: #009688;
+	background-image: none;
+	border: 2px solid #009688;
+	padding: 12px 90px 12px 90px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #e0e9f0;
+	color: #009688;
+}

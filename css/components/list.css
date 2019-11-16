@@ -1,0 +1,77 @@
+.marked-list {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.marked-list-item {
+	position: relative;
+	padding-left: 25px;
+}
+
+.marked-list-item:before {
+	content: "";
+	display: block;
+	width: 12px;
+    height: 2px;
+    background-color: #546e7a;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+.marked-list-item>a {
+  color: #1976d2;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 28px;
+  text-decoration: underline;
+ }
+
+.numbered-list {
+	padding-left: 0px;
+	list-style-position: inside;
+	padding-bottom: 30px;
+ }
+
+.numbered-list-item {
+  	padding: 6px 0;
+  }
+
+.social-list {
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 40px 0;
+	margin: 0;
+	align-items: center;
+}
+
+.social-list-item {
+	padding-right: 20px;
+}
+
+.contact-list {
+	padding: 30px 0 30px 20px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.contact-list-item {
+	position: relative;
+}
+
+.contact-list-item.phone-img:before {
+	content: url(../../img/phone.png);
+	height: 20px;
+    width: 20px;
+    position: absolute;
+    left: -40px;
+    top: 2px;
+}
+
+.contact-list-item:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

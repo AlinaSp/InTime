@@ -1,0 +1,15 @@
+.nav {
+ display: flex;
+ justify-content: space-between;
+ 
+}
+
+.nav .nav-item {
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 54px;
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+}

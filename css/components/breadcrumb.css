@@ -1,0 +1,27 @@
+.breadcrumbs {
+  display: flex;
+  list-style-type: none;
+  padding-top: 20px;
+  padding-inline-start: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.breadcrumb-item:hover > a {
+  text-decoration: underline;
+}
+
+.breadcrumb-item::after{
+   content: '>';
+   margin: 0 5px;
+}
+
+.breadcrumb-item:last-child::after{
+   display: none;
+}
+
+.breadcrumb-item.is-active {
+  color: gray;
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.grid {
+	font-size: 0;
+	
+}
+
+.main-grid {
+	margin-top: 80px;
+}
+
+.main-grid-item {
+  padding-right: 57px;
+}
+
+.main-grid-item:last-child {
+	padding-right: 0;
+}
+
+
+.grid > .grid-item {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1rem;
+}

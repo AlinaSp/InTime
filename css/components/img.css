@@ -1,0 +1,16 @@
+.grid-item-img > img {
+	height: 300px;
+	object-fit: cover;
+}
+
+.card-img > img {
+	height: 200px;
+	object-fit: cover;
+	border-radius: 7px;
+}
+
+.section-img > img {
+	height: 374px;
+	object-fit: cover;
+	border-radius: 7px;
+}

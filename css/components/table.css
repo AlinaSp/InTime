@@ -1,0 +1,21 @@
+.table {
+	width: 844px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.table-row {
+	height: 60px;
+}
+
+.table-row:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.table-row>td>a {
+	color: #1976d2;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 28px;
+  text-decoration: underline;
+}
